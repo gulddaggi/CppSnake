@@ -1,3 +1,3 @@
 ﻿  main.cpp
-C:\Users\MSI\Documents\GitHub\CppSnake\SnakeGame\SnakeGame\main.cpp(220,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  SnakeGame.vcxproj -> C:\Users\MSI\Documents\GitHub\CppSnake\SnakeGame\Debug\SnakeGame.exe
+C:\GitHub\CppSnake\SnakeGame\SnakeGame\main.cpp(242,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  SnakeGame.vcxproj -> C:\GitHub\CppSnake\SnakeGame\Debug\SnakeGame.exe
