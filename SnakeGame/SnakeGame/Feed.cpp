@@ -30,3 +30,9 @@ void Feed::SetY(int value)
 {
 	y = value;
 }
+
+void Feed::Init()
+{
+	x = 0;
+	y = 0;
+}

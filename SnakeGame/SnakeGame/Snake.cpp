@@ -154,3 +154,24 @@ void Snake::InitIsEatFeed()
 {
 	isEatFeed = false;
 }
+
+void Snake::Init()
+{
+	InitIsEatFeed();
+
+	headX = 10;
+	headY = 10;
+	bodyCount = 5;
+	currentHeadDirection = Direction::RIGHT;
+
+	bodyVector.clear();
+
+	Body body(headX, headY, (int)currentHeadDirection, true);
+	bodyVector.push_back(body);
+
+	for (int i = 1; i < bodyCount; i++)
+	{
+		Body body(headX - i, headY, (int)currentHeadDirection, false);
+		bodyVector.push_back(body);
+	}
+}

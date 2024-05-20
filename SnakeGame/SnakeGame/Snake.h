@@ -49,5 +49,7 @@ public:
 	bool GetIsEatFeed();
 
 	void InitIsEatFeed();
+
+	void Init();
 };
 

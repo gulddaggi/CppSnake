@@ -18,5 +18,7 @@ public:
 	void SetY(int value);
 
 	void EatBySnake();
+
+	void Init();
 };
 
